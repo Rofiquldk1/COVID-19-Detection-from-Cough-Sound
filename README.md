@@ -55,40 +55,37 @@ The proposed solution was rigorously tested on the following datasets:
 ---
 
 ## Comparative Analysis
-| Dataset Category     | Method                                      | AUC  | Precision | Recall |
-|----------------------|---------------------------------------------|------|-----------|--------|
-| **Cambridge (Asymptomatic)** | Brown et al. [9]      | 0.80 | 0.72      | 0.69   |
-| | Dentamaro et al. [124]| 0.83 | 0.80      | 0.80   |
-| | Chowdhury et al. [111]| 0.88 | 0.75      | 0.81   |
-| | Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.95 | 0.92      | 0.95   |
-| | Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.97 | 1         | 0.94   |
-| **Cambridge (Symptomatic)** | Brown et al. [9]      | 0.87 | 0.70      | 0.90   |
-| | Chowdhury et al. [33] | -    | 0.87      | 0.82   |
-| | Dentamaro et al. [124]| 0.93 | 0.89      | 0.93   |
-| | Chowdhury et al. [111]| 0.95 | 1         | 0.91   |
-| | Aytekin et al. [83]   | 0.98 | 0.94      | 0.93   |
-| | Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.97 | 1         | 0.93   |
-| | Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.98 | 1         | 0.97   |
-| **Coswara**           |
-| Chowdhury et al. [111]| 0.66 | 0.76      | 0.47   |
-| Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.84 | 0.52      | 0.80   |
-| Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.92 | 0.72      | 0.93   |
-| **COUGHVID**          |
-| Pavel and Ciocoiu [84]| 0.76 | 0.69      | 0.68   |
-| Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.81 | 0.83      | 0.79   |
-| Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.93 | 0.93      | 0.94   |
-| **Virufy**            |
-| Soltanian and Borna [57]| -  | 1         | 0.95   |
-| Islam et al. [60]     | -    | 1         | 0.95   |
-| Chowdhury et al. [111]| 0.94 | 0.89      | 0.98   |
-| Sobahi et al. [102]   | -    | 0.99      | 0.97   |
-| Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.98 | 1         | 0.96   |
-| Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.99 | 0.98      | 1      |
-| **Virufy + NoCoCoDa** |
-| Melek [89]            | 0.99 | 0.99      | 0.97   |
-| Chowdhury et al. [111]| 0.98 | 0.99      | 0.98   |
-| Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.99 | 1         | 0.99   |
-| Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.99 | 1         | 0.99   |
+
+| Dataset Category               | Method                                      | AUC  | Precision | Recall |
+|---------------------------------|---------------------------------------------|------|-----------|--------|
+| **Cambridge (Asymptomatic)**    | Brown et al. [9]                            | 0.80 | 0.72      | 0.69   |
+|                                 | Dentamaro et al. [124]                      | 0.83 | 0.80      | 0.80   |
+|                                 | Chowdhury et al. [111]                      | 0.88 | 0.75      | 0.81   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.95 | 0.92      | 0.95   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.97 | 1.00      | 0.94   |
+| **Cambridge (Symptomatic)**     | Brown et al. [9]                            | 0.87 | 0.70      | 0.90   |
+|                                 | Chowdhury et al. [33]                       | -    | 0.87      | 0.82   |
+|                                 | Dentamaro et al. [124]                      | 0.93 | 0.89      | 0.93   |
+|                                 | Chowdhury et al. [111]                      | 0.95 | 1.00      | 0.91   |
+|                                 | Aytekin et al. [83]                         | 0.98 | 0.94      | 0.93   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.97 | 1.00      | 0.93   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.98 | 1.00      | 0.97   |
+| **Coswara**                     | Chowdhury et al. [111]                      | 0.66 | 0.76      | 0.47   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.84 | 0.52      | 0.80   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.92 | 0.72      | 0.93   |
+| **COUGHVID**                    | Pavel and Ciocoiu [84]                      | 0.76 | 0.69      | 0.68   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.81 | 0.83      | 0.79   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.93 | 0.93      | 0.94   |
+| **Virufy**                       | Soltanian and Borna [57]                    | -    | 1.00      | 0.95   |
+|                                 | Islam et al. [60]                           | -    | 1.00      | 0.95   |
+|                                 | Chowdhury et al. [111]                      | 0.94 | 0.89      | 0.98   |
+|                                 | Sobahi et al. [102]                         | -    | 0.99      | 0.97   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.98 | 1.00      | 0.96   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.99 | 0.98      | 1.00   |
+| **Virufy + NoCoCoDa**            | Melek [89]                                  | 0.99 | 0.99      | 0.97   |
+|                                 | Chowdhury et al. [111]                      | 0.98 | 0.99      | 0.98   |
+|                                 | Proposed (DNDT+RFECV+BO+SMOTE+TM)           | 0.99 | 1.00      | 0.99   |
+|                                 | Proposed (DNDF+RFECV+BO+SMOTE+TM)           | 0.99 | 1.00      | 0.99   |
 
 ---
 
