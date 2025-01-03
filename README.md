@@ -57,10 +57,9 @@ The proposed solution was rigorously tested on the following datasets:
 ## Comparative Analysis
 | Dataset Category     | Method                                      | AUC  | Precision | Recall |
 |----------------------|---------------------------------------------|------|-----------|--------|
-| **Cambridge (Asymptomatic)** |
-| Brown et al. [9]      | 0.80 | 0.72      | 0.69   |
-| Dentamaro et al. [124]| 0.83 | 0.80      | 0.80   |
-| Chowdhury et al. [111]| 0.88 | 0.75      | 0.81   |
+| **Cambridge (Asymptomatic)** | Brown et al. [9]      | 0.80 | 0.72      | 0.69   |
+|-                             | Dentamaro et al. [124]| 0.83 | 0.80      | 0.80   |
+| - | Chowdhury et al. [111]| 0.88 | 0.75      | 0.81   |
 | Proposed (DNDT+RFECV+BO+SMOTE+TM)| 0.95 | 0.92      | 0.95   |
 | Proposed (DNDF+RFECV+BO+SMOTE+TM)| 0.97 | 1         | 0.94   |
 | **Cambridge (Symptomatic)** |
