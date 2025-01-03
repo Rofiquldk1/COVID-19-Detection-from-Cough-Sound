@@ -27,14 +27,23 @@ The proposed solution was rigorously tested on the following datasets:
 - **Virufy**
 - **Combined Virufy + NoCoCoDa**
 
-### Key Metrics
-| Dataset               | AUC  | Precision | Recall | F1-Score | Specificity |
-|-----------------------|------|-----------|--------|----------|-------------|
-| Cambridge             | 0.97 | 1         | -      | -        | -           |
-| Coswara               | 0.98 | 1         | -      | -        | -           |
-| COUGHVID              | 0.92 | 0.72      | -      | -        | -           |
-| Virufy                | 0.93 | 0.93      | -      | -        | -           |
-| Combined Dataset      | 0.99 | 1         | -      | -        | -           |
+| Dataset Category                  | COVID-19 | Non COVID-19 | Total |
+|------------------------------------|----------|--------------|-------|
+| **Cambridge [9]**                 |          |              |       |
+| Asymptomatic                       | 141      | 298          | 439   |
+| Symptomatic                        | 54       | 32           | 86    |
+| **Coswara [13]**                   |          |              |       |
+| -                                  | 185      | 1,134        | 1,319 |
+| **COUGHVID [11]**                  |          |              |       |
+| -                                  | 680      | 680          | 1,360 |
+| **Virufy [10]**                    |          |              |       |
+| -                                  | 48       | 73           | 121   |
+| **NoCoCoDa [14]**                  |          |              |       |
+| -                                  | 73       | -            | 73    |
+| **Virufy + NoCoCoDa [14]**         |          |              |       |
+| -                                  | 121      | 73           | 194   |
+| **Combined**                       |          |              |       |
+| -                                  | 1,181    | 2,217        | 3,398 |
 
 #### Combined Dataset Summary
 - **Accuracy:** 0.97
