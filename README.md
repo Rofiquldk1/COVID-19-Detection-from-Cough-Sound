@@ -56,7 +56,7 @@ The proposed solution was rigorously tested on the following datasets:
 
 ## Comparative Analysis
 
-| Dataset Category               | Method                                      | AUC  | Precision | Recall |
+| **Dataset Category**            | **Method**                                      | AUC  | Precision | Recall |
 |---------------------------------|---------------------------------------------|------|-----------|--------|
 | **Cambridge (Asymptomatic)**    | Brown et al. [9]                            | 0.80 | 0.72      | 0.69   |
 |                                 | Dentamaro et al. [124]                      | 0.83 | 0.80      | 0.80   |
