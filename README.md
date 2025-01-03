@@ -33,7 +33,6 @@ The proposed solution was rigorously tested on the following datasets:
 - **Observations:**
   - Highlights demographic and geographic differences in COVID-19 cough characteristics.
   - Underlines challenges in feature transferability across datasets.
-  - Demonstrates improved model generalizability through dataset integration.
 
 ---
 
