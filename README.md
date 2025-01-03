@@ -92,4 +92,4 @@ The proposed solution was rigorously tested on the following datasets:
 ## Conclusion
 This research demonstrates the efficacy of deep neural decision trees and forests for COVID-19 detection through audio analysis. The integration of diverse datasets significantly enhances model adaptability and reliability, paving the way for effective diagnostic tools.
 
--
+
