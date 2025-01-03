@@ -32,26 +32,18 @@ The proposed solution was rigorously tested on the following datasets:
 | **Cambridge [9]**                 |          |              |       |
 | Asymptomatic                       | 141      | 298          | 439   |
 | Symptomatic                        | 54       | 32           | 86    |
-| **Coswara [13]**                   |          |              |       |
-| -                                  | 185      | 1,134        | 1,319 |
-| **COUGHVID [11]**                  |          |              |       |
-| -                                  | 680      | 680          | 1,360 |
-| **Virufy [10]**                    |          |              |       |
-| -                                  | 48       | 73           | 121   |
-| **NoCoCoDa [14]**                  |          |              |       |
-| -                                  | 73       | -            | 73    |
-| **Virufy + NoCoCoDa [14]**         |          |              |       |
-| -                                  | 121      | 73           | 194   |
-| **Combined**                       |          |              |       |
-| -                                  | 1,181    | 2,217        | 3,398 |
+| **Coswara [13]**                   | 185      | 1,134        | 1,319 |
+| **COUGHVID [11]**                  | 680      | 680          | 1,360 |
+| **Virufy [10]**                    | 48       | 73           | 121   |
+| **NoCoCoDa [14]**                  | 73       | -            | 73    |
+| **Virufy + NoCoCoDa [14]**         | 121      | 73           | 194   |
+| **Combined**                       | 1,181    | 2,217        | 3,398 |
 
 #### Combined Dataset Summary
-- **Accuracy:** 0.97
-- **AUC:** 0.97
-- **Precision:** 0.95
-- **Recall:** 0.96
-- **F1-Score:** 0.96
-- **Specificity:** 0.97
+| Dataset  | Method                      | Accuracy | AUC  | Precision | Recall | F1-Score | Specificity |
+|----------|-----------------------------|----------|------|-----------|--------|----------|-------------|
+| Combined | DNDT+BO+SMOTE+TM             | 0.95     | 0.94 | 0.91      | 0.94   | 0.92     | 0.95        |
+|          | DNDF+BO+SMOTE+TM             | 0.97     | 0.97 | 0.95      | 0.96   | 0.96     | 0.97        |
 
 ---
 
