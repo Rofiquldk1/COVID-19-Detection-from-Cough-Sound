@@ -7,27 +7,27 @@
 
 ---
 
-## Abstract
-This study proposes an effective method for identifying COVID-19 from cough sounds using advanced machine learning models. By utilizing deep neural decision trees (DNDT) and deep neural decision forests (DNDF), the approach achieves consistent and reliable performance across multiple datasets.
+## Overview
+This project introduces an innovative approach to identifying COVID-19 using cough sound analysis with cutting-edge machine learning techniques. The methodology leverages deep neural decision trees (DNDT) and forests (DNDF) to deliver robust and reliable performance across diverse datasets.
 
-### Key Contributions
-- **Feature Extraction:** Extracts a wide range of audio features to distinguish COVID-19 positive and negative samples.
-- **Feature Selection:** Employs recursive feature elimination with cross-validation (RFECV) to pinpoint the most critical features.
-- **Hyperparameter Optimization:** Fine-tunes the DNDT and DNDF models using Bayesian optimization for enhanced performance.
-- **Balanced Data Training:** Ensures fair representation of positive and negative samples through the Synthetic Minority Over-sampling Technique (SMOTE).
-- **Performance Enhancement:** Optimizes model thresholds to maximize the ROC-AUC score.
+### Highlights
+- **Feature Extraction:** Comprehensive extraction of audio features to differentiate COVID-19 positive and negative cases.
+- **Feature Selection:** Utilization of recursive feature elimination with cross-validation (RFECV) for identifying essential features.
+- **Model Optimization:** Implementation of Bayesian optimization to fine-tune DNDT and DNDF hyperparameters for optimal results.
+- **Data Balancing:** Application of Synthetic Minority Over-sampling Technique (SMOTE) to ensure balanced training data.
+- **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
 
 ---
 
-## Dataset Evaluation
-The proposed method was extensively validated on the following datasets:
+## Dataset Validation
+The proposed solution was rigorously tested on the following datasets:
 - **Cambridge (asymptomatic and symptomatic)**
 - **Coswara**
 - **COUGHVID**
 - **Virufy**
-- **Virufy + NoCoCoDa (combined)**
+- **Combined Virufy + NoCoCoDa**
 
-### Performance Metrics
+### Key Metrics
 | Dataset               | AUC  | Precision | Recall | F1-Score | Specificity |
 |-----------------------|------|-----------|--------|----------|-------------|
 | Cambridge             | 0.97 | 1         | -      | -        | -           |
@@ -36,7 +36,7 @@ The proposed method was extensively validated on the following datasets:
 | Virufy                | 0.93 | 0.93      | -      | -        | -           |
 | Combined Dataset      | 0.99 | 1         | -      | -        | -           |
 
-### Results for Combined Dataset
+#### Combined Dataset Summary
 - **Accuracy:** 0.97
 - **AUC:** 0.97
 - **Precision:** 0.95
@@ -46,15 +46,15 @@ The proposed method was extensively validated on the following datasets:
 
 ---
 
-## Cross-Dataset Insights
-- **Key Findings:**
-  - Identifies demographic and geographic variations in COVID-19-related cough patterns.
-  - Highlights challenges in transferring learned features across datasets.
-  - Demonstrates how integrating datasets improves model generalizability and robustness.
+## Cross-Dataset Analysis
+- **Observations:**
+  - Highlights demographic and geographic differences in COVID-19 cough characteristics.
+  - Underlines challenges in feature transferability across datasets.
+  - Demonstrates improved model generalizability through dataset integration.
 
 ---
 
-## Comparison with State-of-the-Art Methods
+## Comparative Analysis
 | Dataset Category     | Method                                      | AUC  | Precision | Recall |
 |----------------------|---------------------------------------------|------|-----------|--------|
 | **Cambridge (Asymptomatic)** |
@@ -95,6 +95,6 @@ The proposed method was extensively validated on the following datasets:
 ---
 
 ## Conclusion
-This research validates the potential of deep neural decision trees and forests for detecting COVID-19 through audio signals. Integrating diverse datasets enhances the model's reliability and adaptability, paving the way for practical diagnostic tools.
+This research demonstrates the efficacy of deep neural decision trees and forests for COVID-19 detection through audio analysis. The integration of diverse datasets significantly enhances model adaptability and reliability, paving the way for effective diagnostic tools.
 
-
+-
