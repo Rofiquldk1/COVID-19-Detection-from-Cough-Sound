@@ -1,26 +1,31 @@
 # Robust COVID-19 Detection from Cough Sounds
 
-### Authors
-- **Rofiqul Islam**, Department of Computer Science and Engineering, University of Chittagong, Chattogram, 4331, Bangladesh
-- **Nihad Karim Chowdhury**, Department of Computer Science and Engineering, University of Chittagong, Chattogram, 4331, Bangladesh
-- **Muhammad Ashad Kabir**, School of Computing, Mathematics, and Engineering, Charles Sturt University, Bathurst, NSW, 2795, Australia
 
 ---
 
 ## Overview
-This project introduces an innovative approach to identifying COVID-19 using cough sound analysis with cutting-edge machine learning techniques. The methodology leverages deep neural decision trees (DNDT) and forests (DNDF) to deliver robust and reliable performance across diverse datasets.
+This study addresses a critical challenge in the field of audio-based health diagnostics: developing robust and generalizable machine-learning models for COVID-19 detection from cough sounds.
+It introduces a framework for classifying COVID-19 from cough sound with cutting-edge machine-learning techniques. This framework leverages a deep neural decision tree (DNDT) and forest (DNDF) to deliver robust and reliable performance across five different datasets.
 
 ### Highlights
+-	Robust COVID-19 cough classification using neural decision tree and forest.
+-	Experimentation across five datasets and their merged set highlights dataset diversity.
+-	Cross-datasets analyses show demographic variability in COVID-19 cough sounds.
+-	RFECV and Bayesian optimization improved feature selection and model performance.
+-	SMOTE oversampling and threshold moving enhanced data balance and classification.
+
+
+### Framework
 - **Feature Extraction:** Comprehensive extraction of audio features to differentiate COVID-19 positive and negative cases.
 - **Feature Selection:** Utilization of recursive feature elimination with cross-validation (RFECV) for identifying essential features.
-- **Model Optimization:** Implementation of Bayesian optimization to fine-tune DNDT and DNDF hyperparameters for optimal results.
+- **Model Optimization:** Implementation of Bayesian optimization to fine-tune deep neural decision tree (DNDT) and forest (DNDF) hyperparameters for optimal results.
 - **Data Balancing:** Application of Synthetic Minority Over-sampling Technique (SMOTE) to ensure balanced training data.
 - **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
 
 ---
 
-## Dataset Validation
-The proposed solution was rigorously tested on the following datasets:
+## Datasets
+The proposed framework was rigorously tested on the following datasets:
 - **Cambridge (asymptomatic and symptomatic)**
 - **Coswara**
 - **COUGHVID**
@@ -29,14 +34,10 @@ The proposed solution was rigorously tested on the following datasets:
 
 ---
 
-## Cross-Dataset Analysis
-- **Observations:**
-  - Highlights demographic and geographic differences in COVID-19 cough characteristics.
-  - Underlines challenges in feature transferability across datasets.
+## Authors
+- **Rofiqul Islam**, Department of Computer Science and Engineering, University of Chittagong, Chattogram, 4331, Bangladesh
+- **Professor Nihad Karim Chowdhury**, Department of Computer Science and Engineering, University of Chittagong, Chattogram, 4331, Bangladesh
+- **Professor Ashad Kabir**, School of Computing, Mathematics, and Engineering, Charles Sturt University, Bathurst, NSW, 2795, Australia
 
----
-
-## Conclusion
-This research demonstrates the efficacy of deep neural decision trees and forests for COVID-19 detection through audio analysis. The integration of diverse datasets significantly enhances model adaptability and reliability, paving the way for effective diagnostic tools.
 
 
