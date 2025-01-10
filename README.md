@@ -27,22 +27,22 @@ This study addresses a critical challenge in the field of audio-based health dia
 
 ## Workflow Steps
 
-1. **Upload Files**  
+- **Upload Files**  
    Upload the extracted features and train-test split folders to your Google Drive. Open a Colab notebook and add the files step by step.
 
-2. **Prepared Data**  
+- **Prepared Data**  
    Perform data preparation in a format compatible with the models.
 
-3. **Bayesian Optimization**  
+- **Bayesian Optimization**  
    Perform Bayesian Optimization to fine-tune the hyperparameters of the models.
 
-4. **Feature Selection (RFECV)**  
+- **Feature Selection (RFECV)**  
    Apply Recursive Feature Elimination with Cross-Validation (RFECV) to select the most important features.
 
-5. **Models**  
+- **Models**  
    Prepare the models, including Deep Neural Decision Tree (DNDT) and Forest (DNDF).
 
-6. **Classification**  
+- **Classification**  
    Perform the final classification task, including **threshold moving** and **upsampling**, and evaluate the models' performance.
    
 ---
