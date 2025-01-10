@@ -26,7 +26,7 @@ This study addresses a critical challenge in the field of audio-based health dia
 
 
 ### Workflow Steps
-- **Upload Files:** Upload the Extracted Features and Train-Test Split folders to your Google Drive. Open a Colab notebook and add the files step by step.
+- **Upload Files:** Upload the Extracted Features and Train-Test Split folders to your Google Drive. Open a Colab notebook and sequentially add the .ipynb files from the Codes folder.
 - **Prepared Data.ipynb:** Perform data preparation in a format compatible with the models.
 - **Bayesian Optimization.ipynb:** Perform Bayesian Optimization to fine-tune the hyper-parameters of the models.
 - **Feature Selection (RFECV).ipynb:** Apply Recursive Feature Elimination with Cross-Validation (RFECV) to select the most important features.
