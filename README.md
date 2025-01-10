@@ -24,7 +24,6 @@ This study addresses a critical challenge in the field of audio-based health dia
 - **Data Balancing:** Application of Synthetic Minority Over-sampling Technique (SMOTE) to ensure balanced training data.
 - **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
 
----
 
 ## Workflow Steps
 
