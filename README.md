@@ -25,13 +25,14 @@ This study addresses a critical challenge in the field of audio-based health dia
 - **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
 
 ---
+
 ## Workflow Steps
 
 1. **Upload Files**  
    Upload the extracted features and train-test split folders to your Google Drive. Open a Colab notebook and add the files step by step.
 
 2. **Prepared Data**  
-   Add the data in a format compatible with the model requirements.
+   Perform data preparation in a format compatible with the models.
 
 3. **Bayesian Optimization**  
    Perform Bayesian Optimization to fine-tune the hyperparameters of the models.
@@ -40,11 +41,13 @@ This study addresses a critical challenge in the field of audio-based health dia
    Apply Recursive Feature Elimination with Cross-Validation (RFECV) to select the most important features.
 
 5. **Models**  
-   Prepare the models, including Deep Neural Decision Tree and Forest.
+   Prepare the models, including Deep Neural Decision Tree (DNDT) and Forest (DNDF).
 
 6. **Classification**  
    Perform the final classification task, including **threshold moving** and **upsampling**, and evaluate the models' performance.
+   
 ---
+
 ## Datasets
 The proposed framework was rigorously tested on the following datasets:
 - **Cambridge (asymptomatic and symptomatic)** - https://www.covid-19-sounds.org/en/
