@@ -25,7 +25,7 @@ This study addresses a critical challenge in the field of audio-based health dia
 - **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
 
 
-## Workflow Steps
+### Workflow Steps
 - **Upload Files**  
    Upload the Extracted Features and Train-Test Split folders to your Google Drive. Open a Colab notebook and add the files step by step.
 
