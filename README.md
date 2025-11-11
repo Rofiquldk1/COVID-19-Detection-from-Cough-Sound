@@ -36,7 +36,7 @@ It leverages Deep Neural Decision Tree (DNDT) and Deep Neural Decision Forest (D
 ---
 
 ## Datasets
-The proposed framework was rigorously tested on the following datasets:
+The proposed framework was rigorously evaluated on the following datasets:
 - **Cambridge (asymptomatic and symptomatic)** - https://www.covid-19-sounds.org/en/
 - **Coswara** - https://github.com/iiscleap/Coswara-Data
 - **COUGHVID** - https://zenodo.org/records/7024894
