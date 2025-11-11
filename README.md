@@ -19,12 +19,11 @@ It leverages Deep Neural Decision Tree (DNDT) and Deep Neural Decision Forest (D
 
 
 ### Framework
-- **Feature Extraction:** Comprehensive extraction of audio features to differentiate COVID-19 positive and negative cases.
-- **Feature Selection:** Utilization of recursive feature elimination with cross-validation (RFECV) for identifying essential features.
-- **Model Optimization:** Implementation of Bayesian optimization to fine-tune deep neural decision tree (DNDT) and forest (DNDF) hyperparameters for optimal results.
-- **Data Balancing:** Application of Synthetic Minority Over-sampling Technique (SMOTE) to ensure balanced training data.
-- **Performance Optimization:** Threshold adjustment to maximize ROC-AUC metrics.
-
+- **Feature Extraction:** Extract acoustic audio features to distinguish COVID-19 positive and negative cases.
+- **Feature Selection:** Use RFECV with Extra Trees Classifier to identify the most relevant features.
+- **Hyperparameter Tuning:** Optimize DNDT and DNDF hyperparameters using Bayesian Optimization.
+- **Data Balancing:** Apply SMOTE to balance positive and negative samples in the training set.
+- **Threshold Optimization:** Adjust decision thresholds to maximize ROC-AUC and improve classification performance.
 
 ### Workflow Steps
 - **Upload Files:** Upload the Extracted Features and Train-Test Split folders to your Google Drive. Open a Colab notebook and sequentially add the .ipynb files from the Codes folder.
