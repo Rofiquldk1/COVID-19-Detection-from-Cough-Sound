@@ -11,11 +11,11 @@ The approach employs Deep Neural Decision Tree (DNDT) and Deep Neural Decision F
 
 
 ### Highlights
--	Robust COVID-19 cough classification using neural decision tree and forest.
--	Experimentation across five datasets and their merged set highlights dataset diversity.
--	Cross-datasets analyses show demographic variability in COVID-19 cough sounds.
--	RFECV and Bayesian optimization improved feature selection and model performance.
--	SMOTE oversampling and threshold moving enhanced data balance and classification.
+- Robust COVID-19 cough classification using Deep Neural Decision Tree (DNDT) and Deep Neural Decision Forest (DNDF).
+- Extensive experimentation across five individual datasets and a combined dataset, demonstrating strong performance across diverse sources.
+- Cross-dataset analysis reveals demographic variability in COVID-19 cough sounds.
+- Optimized modeling pipeline: key features selected via RFECV with Extra Trees Classifier, hyperparameters tuned with Bayesian Optimization, and data balanced using SMOTE oversampling.
+- Performance enhancement achieved through threshold adjustment.
 
 
 ### Framework
