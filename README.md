@@ -52,11 +52,10 @@ The proposed framework was rigorously tested on the following datasets:
 
 ### Cite this paper as
 ```bibtex
-@misc{id123,
-title = {Robust COVID-19 Detection from Cough Sounds using Deep Neural Decision Tree and Forest: A Comprehensive Cross-Datasets Evaluation},
-author = {Rofiqul Islam, Nihad Karim Chowdhury and Muhammad Ashad Kabir},
-archivePrefix = {arXiv},
-eprint = {2501.01117},
-doi = {10.48550/arXiv.2501.01117},
-year={2025}
+@article{islam2025robust,
+  title={Robust covid-19 detection from cough sounds using deep neural decision tree and forest: A comprehensive cross-datasets evaluation},
+  author={Islam, Rofiqul and Chowdhury, Nihad Karim and Kabir, Muhammad Ashad},
+  journal={arXiv preprint arXiv:2501.01117},
+  year={2025}
+}
 }
