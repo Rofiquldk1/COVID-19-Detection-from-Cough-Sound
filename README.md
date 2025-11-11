@@ -41,7 +41,7 @@ The proposed framework was rigorously evaluated on the following datasets:
 - **COUGHVID** - https://zenodo.org/records/7024894
 - **Virufy** - https://github.com/virufy/virufy-data
 - **Combined Virufy + NoCoCoDa** - https://doi.org/10.1109/ACCESS.2020.3018028
-- **Combined Dataset:** Integration of all five individual datasets (Cambridge asymptomatic, Cambridge symptomatic, Coswara, COUGHVID, Virufy, NoCoCoDa) for comprehensive evaluation.
+- **Combined Dataset:** Integration of all five datasets (Cambridge asymptomatic, Cambridge symptomatic, Coswara, COUGHVID, Virufy, NoCoCoDa).
   
 ---
 
