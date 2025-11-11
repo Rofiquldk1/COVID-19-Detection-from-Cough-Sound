@@ -4,7 +4,8 @@
 ---
 
 ## Overview
-This study addresses a critical challenge in the field of audio-based health diagnostics: developing robust and generalizable machine-learning models for COVID-19 detection from cough sounds. It introduces a framework for classifying COVID-19 from cough sound with cutting-edge machine-learning techniques. This framework leverages a deep neural decision tree (DNDT) and forest (DNDF) to deliver robust and reliable performance across five different datasets. A preprint version of the paper is available at https://arxiv.org/abs/2501.01117
+This repository presents a robust and generalizable machine learning framework for detecting COVID-19 from cough sounds.
+The approach employs Deep Neural Decision Tree (DNDT) and Deep Neural Decision Forest (DNDF) models to achieve consistent and high-performing results across five individual datasets and a combined dataset that integrates them all. A preprint version of the paper is available at https://arxiv.org/abs/2501.01117
 
 ![image](https://github.com/user-attachments/assets/d57a3688-dc49-46d1-8656-b6b1dbbe3586)
 
