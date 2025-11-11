@@ -58,4 +58,3 @@ The proposed framework was rigorously tested on the following datasets:
   journal={arXiv preprint arXiv:2501.01117},
   year={2025}
 }
-}
