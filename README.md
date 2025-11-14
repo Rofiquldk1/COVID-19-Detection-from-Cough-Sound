@@ -24,7 +24,7 @@ This repository presents a robust and generalizable machine learning framework f
 - **Threshold Optimization:** Adjust decision thresholds to maximize ROC-AUC and improve classification performance.
 
 ### Workflow Steps
-- **Upload Files:** Upload the Extracted Features from our research and the Train-Test Split folders to your Google Drive to ensure consistent splits for both DNDT and DNDF.
+- **Upload Files:** Upload the Extracted Features from our research for classification, along with the Train-Test Split folders, to your Google Drive to ensure consistent splits for both DNDT and DNDF.
 - **Proposed_COVID_19_Detection_from_Cough_Sounds_Dataset_wise_Results.ipynb:** Run the code step by step and follow the comments for guidance to perform classification on each individual dataset.
 - **COVID19_Cough_Detection_CrossSectional_and_Combined_Dataset_Results.ipynb:** Run the code and check the comments for guidance. This notebook allows you to perform either a Cross-Sectional Study or a Combined Dataset analysis, one at a time.
    
