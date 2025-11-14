@@ -25,12 +25,9 @@ It leverages Deep Neural Decision Tree (DNDT) and Deep Neural Decision Forest (D
 - **Threshold Optimization:** Adjust decision thresholds to maximize ROC-AUC and improve classification performance.
 
 ### Workflow Steps
-- **Upload Files:** Upload the Extracted Features and Train-Test Split folders to your Google Drive. Open a Colab notebook and sequentially add the .ipynb files from the Codes folder.
-- **Prepared Data.ipynb:** Perform data preparation in a format compatible with the models.
-- **Bayesian Optimization.ipynb:** Perform Bayesian Optimization to fine-tune the hyper-parameters of the models.
-- **Feature Selection (RFECV).ipynb:** Apply Recursive Feature Elimination with Cross-Validation (RFECV) to select the most important features.
-- **Models.ipynb:** Prepare the models, including deep neural decision tree (DNDT) and forest (DNDF).
-- **Classification.ipynb:** Perform the final classification task, including **Threshold Moving** and **Up-sampling**, and evaluate the models performance.
+- **Upload Files:** Upload the Extracted Features from our research and the Train-Test Split folders to your Google Drive to ensure consistent splits for both DNDT and DNDF.
+- **Proposed_COVID_19_Detection_from_Cough_Sounds_Dataset_wise_Results.ipynb:** Run the code step by step and follow the comments for guidance to perform classification on each individual dataset.
+- **COVID19_Cough_Detection_CrossSectional_and_Combined_Dataset_Results.ipynb:** Run the code and check the comments for guidance. This notebook allows you to perform either a Cross-Sectional Study or a Combined Dataset analysis, one at a time.
    
 ---
 
