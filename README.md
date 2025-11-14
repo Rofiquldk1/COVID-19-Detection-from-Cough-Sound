@@ -46,7 +46,7 @@ The proposed framework was rigorously evaluated on the following datasets:
 - **Professor Nihad Karim Chowdhury**, Department of Computer Science and Engineering, University of Chittagong, Chattogram, 4331, Bangladesh
 - **Professor Ashad Kabir**, School of Computing, Mathematics, and Engineering, Charles Sturt University, Bathurst, NSW, 2795, Australia
 
-### Cite this paper as
+### Cite this paper if you use our code or refer to our work:
 ```bibtex
 @article{islam2025robust,
   title={Robust covid-19 detection from cough sounds using deep neural decision tree and forest: A comprehensive cross-datasets evaluation},
