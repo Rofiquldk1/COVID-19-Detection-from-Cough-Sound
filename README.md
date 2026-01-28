@@ -52,6 +52,7 @@ The proposed framework was rigorously evaluated on the following datasets:
   title={Robust covid-19 detection from cough sounds using deep neural decision tree and forest: A comprehensive cross-datasets evaluation},
   author={Islam, Rofiqul and Chowdhury, Nihad Karim and Kabir, Muhammad Ashad},
   journal={Expert Systems with Applications},
+  volume = {310},
   pages={131235},
   year={2026},
   publisher={Elsevier}
